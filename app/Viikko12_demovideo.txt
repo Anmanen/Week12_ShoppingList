@@ -1,13 +1,13 @@
 Hei,
 
-Viikon 11 tehtävistä on toteutettu seuraavat:
-- Ohjelmaan kykenee lisäämään asioita
-- Ohjelma listaa asiat ruudulle RecyclerViewn avulla
-- Ohjelmassa pystyy poistamaan lisättyjä asioita
-- Ohjelmassa pystyy muokkaamaan lisättyjä asioita
-- Ohjelmassa voidaan valita näytetäänkö asiat aika- vai aakkosjärjestyksessä
+Viikon 12 tehtävistä (Ostoslista fragmenteilla) on toteutettu seuraavat:
+- Listaan uutta asiaa lisätessä voi sen merkitä tärkeäksi
+- Ohjelmassa käytetään vähintään kahta fragmenttia (käytössä kolme)
+- Ohjelmassa on vain yksi Activity (MainActivity)
+- Ohjelmassa on käytössä TabLayout
+- Ohjelmassa on erillinen Fragment, joka näyttää tärkeiksi merkityt asiat
 
 
-Tehtävään liittyvä koodi löytyy GitHubista https://github.com/Anmanen/Week11_ShoppingList julkisesta repositoriosta. Sieltä löytyy myös video (Viikko12_ShoppingList_video.mp4) tai sen voi katsoa OneDrivestä https://1drv.ms/v/s!AvjAnGoJBp7tpnSJJWBLT7iboEUU?e=bOpO8l
+Tehtävään liittyvä koodi löytyy GitHubista https://github.com/Anmanen/Week12_ShoppingList julkisesta repositoriosta. Sieltä löytyy myös video (Viikko12_ShoppingList.mp4) tai sen voi katsoa OneDrivestä https://1drv.ms/v/s!AvjAnGoJBp7tpmk72z5_b6OurGWK?e=U3nlcF
 
 t: Anne-Maria Keränen
