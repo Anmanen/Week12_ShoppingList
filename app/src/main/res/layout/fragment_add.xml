@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".fragments.FragmentList">
+
+    <EditText
+        android:id="@+id/etxtShoppingItemName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:ems="10"
+        android:hint="Ostos"
+        android:inputType="textPersonName"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/etxtNote"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="100dp"
+        android:ems="10"
+        android:hint="Huom!"
+        android:inputType="textMultiLine"
+        android:textAlignment="center" />
+
+    <CheckBox
+        android:id="@+id/cbImportant"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="150dp"
+        android:text="Tärkeä" />
+
+    <Button
+        android:id="@+id/btnAddItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="200dp"
+        android:onClick="addShoppingItem"
+        android:text="Lisää" />
+
+</FrameLayout>
